@@ -27,8 +27,3 @@ img = cv2.imread('./assets/cell_binary.png', cv2.IMREAD_GRAYSCALE)
 img = torch.tensor(img / 255, dtype=torch.float32)
 labeled_tensor, num_features = label(img)
 ```
-
-## To Do
-
-- [ ] Better code documentation
-- [ ] Small performance improvements
